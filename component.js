@@ -9,3 +9,5 @@ export class MyComponent extends React.Component {
     )
   }
 }
+
+window.MyComponent = MyComponent

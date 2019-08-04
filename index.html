@@ -1,6 +1,7 @@
 <html>
   <head>
     <title>Go React test</title>
+    <link rel="stylesheet" href="node_modules/antd/dist/antd.css"></link>
   </head>
   <body>
     <h1>Go React test</h1>
@@ -8,7 +9,7 @@
     <div id="root"></div>
     <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
     <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
-    <script src="bundle.js" type="module"></script>
+    <script src="bundle.js"></script>
     <script>
       const rootEl = document.getElementById('root');
       ReactDOM.render(React.createElement(MyComponent), rootEl);
