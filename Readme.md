@@ -2,3 +2,5 @@
 2. `npm install --save-dev @babel/core @babel/cli babel-plugin-import @babel/preset-env @babel/preset-react`
 3. `npm install --save @babel/polyfill antd browserify react react-dom`
 4. `make`
+5. `go run server.go`
+6. Visit `localhost:3001`
